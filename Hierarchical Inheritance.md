@@ -28,13 +28,46 @@ To write a Python program to get the employee and doctor details and display the
 
 ### PROGRAM
 ```
+#Reg.no: 212222063014
+#Name: SARATH KUMAR.K
+class A:
+def data(self):
+self.idd = int(input())
+self.name = input()
+self.gen = input()
+self.comp = input()
+self.dept = input()
+class B(A):
+def display1(self):
+A.data(self)
+print("Employee Object")
+print("Id: ",self.idd)
+print("Name: ",self.name)
+print("Gender: ",self.gen)
+print("Company: ",self.comp)
+print("Department: ",self.dept)
+print("")
+class C(B):
+def display2(self):
+A.data(self)
+print("Doctor Object")
+print("Id: ",self.idd)
+print("Name: ",self.name)
+print("Gender: ",self.gen)
+print("Hospital: ",self.comp)
+print("Department: ",self.dept)
+obj = C()
+objj = B()
+objj.display1()
+obj.display2()
 
 
 ```
 
 ### OUTPUT  
+<img width="1258" height="505" alt="image" src="https://github.com/user-attachments/assets/b49fcec2-b192-4adc-8ee2-696c17c8cdd6" />
 
-(Output Screenshot)  
 
 
 ### RESULT
+Thus , the given pyhton program is implemented and executed sucessfully.
